@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+.menu{
+background-color: bisque;
+text-align: center;
+height: 40px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    display: inline-block;
+    background-color: rgb(240, 178, 86);
+}
+
+.menu a:hover {
+    background-color: coral;
+}
+
+.menu a:active {
+    color: rgb(0, 255, 242);
+}
+
+.image-galary{
+    text-align: center;
+
+}
+
+.image-galary h2{
+    margin: 10px 0px;
+}
+
+.image-galary img{
+    width: 300px;
+    height: 200px;
+    padding: 5px;
+    
+}
+
+.list-area{
+    margin: 20px;
+    display: flex;
+}
+
+.order-list{
+    width: 50%;
+    height: 178px;
+    margin-right: 20px;
+}
+
+.order-list ol {
+    padding-left:30px ;
+}
+
+.order-list ol li{
+    padding: 10px;
+}
+legend{
+    text-align: center;
+    
+}
+.list-area fieldset{
+    height: 350px;
+   }
+
+.unorder-list{
+    width: 50%;
+  }
+
+.unorder-list ul{
+    padding-left: 30px;
+}
+
+.unorder-list ul li{
+    padding: 10px;
+}
+
+.table table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #333;
+    padding: 7px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+th{
+font-size: 18px;
+background-color: tomato;
+}
+
+tr:nth-child(even){
+    background-color: thistle;
+}
+
+
+
+.form fieldset{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    width: 500px;
+  
+}
+label
+{
+    float:left;
+    width: 40%;
+    text-align:right;
+    margin-top: 10px;
+    padding: 5px;
+
+    }
+input
+{
+    float:left;
+    width: 30%;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 5px
+;
+}
+
+.submit-btn{
+    text-align: center;
+    margin-left: 70px;
+}
